@@ -33,10 +33,10 @@
 
           <!-- Nav -->
             <nav id="nav">
-              <div class="row aln-middle">
+              <div class="row">
                 <div class="col-6 col-12-medium" style="padding-top: 0">
-                  <div id="logo">
-                    <a href="index.html" class="image centered">
+                  <div id="logo" style="text-align: left">
+                    <a href="index.html" class="image">
                       <img src="images/logo_256x256_circular.png" alt="" />
                     </a>
                   </div>
@@ -103,7 +103,40 @@
             <!-- Image -->
               <a href="#" class="image featured">
                 <img src="images/evento001.jpg" alt="" />
-              </a>  
+              </a>
+
+              <header class="style1" style="padding-bottom: 0;">
+                <h2>Pre-Registro<br class="mobile-hide" />
+                <i>SIN COSTO</i></h2>
+              </header>
+
+              <!-- Contact Form -->
+              <section>
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="pass-id">
+                  <p style="visibility: hidden; height: 0;">
+                    <label>
+                      No llenar: <input name="pass-id" />
+                    </label>
+                  </p>
+                  <div class="col-12" style="visibility: hidden; height: 0;">
+                    <textarea name="message" id="message" placeholder="Mensaje" rows="1">Pre-registro</textarea>
+                  </div>
+                  <div class="row gtr-50">
+                    <div class="col-6 col-12-small">
+                      <input type="text" name="name" id="name" placeholder="Nombre" />
+                    </div>
+                    <div class="col-6 col-12-small">
+                      <input type="text" name="email" id="email" placeholder="Correo" />
+                    </div>
+                    <div class="col-12">
+                      <ul class="actions">
+                        <li><input type="submit" class="style1" value="Registrar" /></li>
+                        <li><input type="reset" class="style2" value="Limpiar" /></li>
+                      </ul>
+                    </div>
+                  </div>
+                </form>
+              </section>
           </div>
         </section>
 
@@ -199,34 +232,6 @@
             <div class="row">
               <div class="col-6 col-12-medium">
 
-                <!-- Contact Form -->
-                  <section>
-                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="pass-id">
-                      <p style="visibility: hidden;">
-                        <label>
-                          Don’t fill this out if you’re human: <input name="pass-id" />
-                        </label>
-                      </p>
-                      <div class="row gtr-50">
-                        <div class="col-6 col-12-small">
-                          <input type="text" name="name" id="name" placeholder="Nombre" />
-                        </div>
-                        <div class="col-6 col-12-small">
-                          <input type="text" name="email" id="email" placeholder="Correo" />
-                        </div>
-                        <div class="col-12">
-                          <textarea name="message" id="message" placeholder="Mensaje" rows="4"></textarea>
-                        </div>
-                        <div class="col-12">
-                          <ul class="actions">
-                            <li><input type="submit" class="style1" value="Enviar" /></li>
-                            <li><input type="reset" class="style2" value="Borrar" /></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </form>
-                  </section>
-
               </div>
               <div class="col-6 col-12-medium">
 
@@ -237,7 +242,7 @@
                         <section>
                           <h3 class="icon solid fa-comment">Instagram</h3>
                           <p>
-                            <a href="#">@untitled-corp</a><br />
+                            <a href="https://www.instagram.com/queseescuchefuertemigrito/">@queseescuchefuertemigrito</a><br />
                           </p>
                         </section>
                       </div>
@@ -245,7 +250,7 @@
                         <section>
                           <h3 class="icon solid fa-envelope">Correo</h3>
                           <p>
-                            <a href="#">info@untitled.tld</a>
+                            <a href="mailto:mayte.herrera2013@gmail.com">mayte.herrera2013@gmail.com</a>
                           </p>
                         </section>
                       </div>
@@ -264,7 +269,7 @@
             </div>
             <div id="copyright">
               <ul>
-                <li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <li>&copy; Número de registro</li><li></li>
               </ul>
             </div>
           </div>
