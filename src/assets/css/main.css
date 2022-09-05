@@ -172,6 +172,7 @@ textarea {
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -2237,6 +2238,14 @@ ul.actions.special {
   top: 1.5em;
 }
 
+.logo-header {
+  display: none;
+}
+
+#logo img {
+  height: 180px;
+}
+
 #logo h1 {
   font-weight: 900;
   text-transform: uppercase;
@@ -2263,28 +2272,28 @@ ul.actions.special {
   top: 2.5em;
   left: 0;
   width: 100%;
-  text-align: center;
+  /*text-align: center;*/
 }
 
-#nav>ul {
+#nav ul {
   display: inline-block;
   border-radius: 0.35em;
   box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
   padding: 0 1.5em 0 1.5em;
 }
 
-#nav>ul>li {
+#nav ul>li {
   display: inline-block;
   text-align: center;
   padding: 0 1.5em 0 1.5em;
 }
 
-#nav>ul>li>ul {
+#nav ul>li>ul {
   display: none;
 }
 
-#nav>ul>li>a,
-#nav>ul>li>span {
+#nav ul>li>a,
+#nav ul>li>span {
   display: block;
   color: #eee;
   color: rgba(255, 255, 255, 0.75);
@@ -2302,12 +2311,12 @@ ul.actions.special {
   outline: 0;
 }
 
-#nav>ul>li:hover>a {
+#nav ul>li:hover>a {
   color: #fff;
 }
 
-#nav>ul>li.active>a,
-#nav>ul>li.active>span {
+#nav ul>li.active>a,
+#nav >ul>li.active>span {
   color: #fff;
 }
 
@@ -2693,6 +2702,10 @@ ul.actions.special {
 
   #nav {
     display: none;
+  }
+
+  .logo-header {
+    display: inherit;
   }
 
   /* Logo */

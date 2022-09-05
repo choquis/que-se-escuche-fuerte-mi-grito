@@ -13,16 +13,16 @@
         <section id="header" class="wrapper">
 
           <div class="row aln-middle">
-            <!-- Logo -->
-              <div class="col-6 col-12-medium">
-                <div id="logo">
-                  <a href="index.html" class="image centered">
-                    <img src="images/logo_256x256_circular.png" alt="" />
-                  </a>
-                </div>
+            <div class="col-12-medium logo-header">
+              <div id="logo">
+                <a href="index.html" class="image centered">
+                  <img src="images/logo_256x256_circular.png" alt="" />
+                </a>
               </div>
+            </div>
 
-              <div class="col-6 col-12-medium">
+            <!-- Logo -->
+              <div class="col-12-medium">
                 <div id="logo">
                   <h1><a href="index.html">HABLEMOS SUICIDIO SIN ESTIGMAS</a></h1>
                   <p>#YOTEESCUCHO</p>
@@ -33,11 +33,23 @@
 
           <!-- Nav -->
             <nav id="nav">
-              <ul>
-                <li class="current"><a href="index.html">Comienzo</a></li>
-                <li><a href="aboutus.html">Eventos</a></li>
-                <li><a href="contactus.html">Testimonios</a></li>
-              </ul>
+              <div class="row aln-middle">
+                <div class="col-6 col-12-medium" style="padding-top: 0">
+                  <div id="logo">
+                    <a href="index.html" class="image centered">
+                      <img src="images/logo_256x256_circular.png" alt="" />
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-6 col-12-medium">
+                  <ul>
+                    <li class="current"><a href="#intro">Comienzo</a></li>
+                    <li><a href="#main">Entrevista</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                  </ul>
+                </div>
+              </div>
             </nav>
 
         </section>
@@ -84,22 +96,21 @@
         </section>
 
       <!-- Main -->
-        <section id="main" class="wrapper style3">
+        <section id="eventos" class="wrapper style3">
           <div class="title">Eventos</div>
           <div class="container">
 
             <!-- Image -->
               <a href="#" class="image featured">
-                <img src="images/pic01.jpg" alt="" />
+                <img src="images/evento001.jpg" alt="" />
               </a>  
           </div>
         </section>
 
-      <!-- Main -->
-        <section id="main" class="wrapper style2">
+      <!-- Colaboradores 
+        <section id="colaboradores" class="wrapper style2">
           <div class="title">Colaboradores</div>
           <div class="container">
-            <!-- Features -->
               <section id="features">
                 <div class="feature-list">
                   <div class="row">
@@ -145,8 +156,9 @@
 
           </div>
         </section>
+      -->
 
-      <!-- Highlights -->
+      <!-- Highlights
         <section id="highlights" class="wrapper style3">
           <div class="title">Testimonios</div>
           <div class="container">
@@ -175,6 +187,7 @@
             </div>
           </div>
         </section>
+      -->
 
       <!-- Footer -->
         <section id="footer" class="wrapper" style="padding-top: 3em">
@@ -188,16 +201,21 @@
 
                 <!-- Contact Form -->
                   <section>
-                    <form method="post" action="#">
+                    <form name="contact" method="POST" data-netlify="true" netlify-honeypot="pass-id">
+                      <p style="display: hidden;">
+                        <label>
+                          Don’t fill this out if you’re human: <input name="pass-id" />
+                        </label>
+                      </p>
                       <div class="row gtr-50">
                         <div class="col-6 col-12-small">
-                          <input type="text" name="name" id="contact-name" placeholder="Nombre" />
+                          <input type="text" name="name" id="name" placeholder="Nombre" />
                         </div>
                         <div class="col-6 col-12-small">
-                          <input type="text" name="email" id="contact-email" placeholder="Correo" />
+                          <input type="text" name="email" id="email" placeholder="Correo" />
                         </div>
                         <div class="col-12">
-                          <textarea name="message" id="contact-message" placeholder="Mensaje" rows="4"></textarea>
+                          <textarea name="message" id="message" placeholder="Mensaje" rows="4"></textarea>
                         </div>
                         <div class="col-12">
                           <ul class="actions">
