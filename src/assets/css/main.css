@@ -2685,6 +2685,20 @@ ul.actions.special {
   display: none;
 }
 
+.team-name {
+  font-size: 1.2rem
+}
+.team-desc {
+  font-size: 1rem;
+}
+.team-desc span {
+  font-size: 0.8rem;
+}
+
+.highlight p{
+  margin-bottom: 1rem;
+}
+
 @media screen and (max-width: 980px) {
 
   /* Section/Article */
