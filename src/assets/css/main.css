@@ -3227,13 +3227,14 @@ body {
   text-align: center;
   background-color: white;
   border-radius: 4px;
-  padding-bottom: 3rem;
+  padding: 3rem;
 }
 
 .vinculo-stripe p {
   color: black;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 6rem;
+  line-height: normal;
 }
 .vinculo-stripe a {
   color: #f4d62d;
