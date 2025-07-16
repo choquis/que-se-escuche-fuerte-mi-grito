@@ -3205,3 +3205,38 @@ ul.actions.special {
   }
 
 }
+
+
+/**
+* Cambios temporales para conferecias de agosto 2025
+*/
+#conferencias > .row {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.img-conferencias {
+  width: 100%;
+}
+
+body {
+  background-color: #5494d2;
+}
+
+.vinculo-stripe {
+  text-align: center;
+  background-color: white;
+  border-radius: 4px;
+  padding-bottom: 3rem;
+}
+
+.vinculo-stripe p {
+  color: black;
+  font-size: 3rem;
+  margin-bottom: 6rem;
+}
+.vinculo-stripe a {
+  color: #f4d62d;
+  font-size: 4rem;
+  
+}
