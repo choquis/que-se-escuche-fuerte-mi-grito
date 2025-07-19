@@ -3238,7 +3238,8 @@ body {
 }
 .vinculo-stripe a {
   color: #f4d62d;
-  font-size: 4rem;
+  font-size: 3rem;
+  line-height: normal;
   
 }
 
