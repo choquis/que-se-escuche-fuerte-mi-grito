@@ -3241,3 +3241,7 @@ body {
   font-size: 4rem;
   
 }
+
+div[id^='paypal-form-fields-container-'], div[id*=' paypal-form-fields-container-']{
+    justify-content: center;
+}

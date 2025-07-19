@@ -6,6 +6,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="assets/css/main.css" />
+  <script 
+  src="https://www.paypal.com/sdk/js?client-id=BAA65ooBanuMvbHqTjSN4E7DoF2rFJk4iKP0nP9aCQlElqYl2pYuZhEFg3802oNt4OMQleUuHu1zJEFyWk&components=hosted-buttons&disable-funding=venmo&currency=MXN">
+</script>
 </head>
 
 <body class="homepage is-preload">
@@ -32,7 +35,17 @@
         </div>
         <div class="col-12 vinculo-stripe">
           <p>Si te interesa inscribirte puedes usar el siguiente enlace:</p>
-          <a href="https://buy.stripe.com/9B614n9N3by2cT90Nk5ZC00">Inscribirme</a>
+          <a href="https://buy.stripe.com/9B614n9N3by2cT90Nk5ZC00">Inscribirme con stripe</a>
+        </div>
+
+        <div class="col-12 vinculo-stripe">
+          <p>O paypal:</p>
+          <div id="paypal-container-HN2FS6WGL8QUA"></div>
+          <script>
+            paypal.HostedButtons({
+              hostedButtonId: "HN2FS6WGL8QUA",
+            }).render("#paypal-container-HN2FS6WGL8QUA")
+          </script>
         </div>
         <div class="col-12">
           <img src="images/publicacion-conferencias-agosto-2025-parte-3.jpg" class="img-conferencias">
